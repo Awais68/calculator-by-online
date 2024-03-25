@@ -1,4 +1,4 @@
-// #! /usr/bin/env node 
+#! /usr/bin/env node 
 // //SHABANG # SHA -BANG LINE MUST BE AT THE TOP OF EACH FILE IN THIS DIRECTORY.
 
 import inquirer from "inquirer";
@@ -29,4 +29,4 @@ if (asnwer.operator ===  "addition") {
     console.log("Please select valid operator")
   }
     
-  console.log("THe End")
+  console.log("THe End ***")

@@ -1,4 +1,4 @@
-// #! /usr/bin/env node 
+#! /usr/bin/env node 
 // //SHABANG # SHA -BANG LINE MUST BE AT THE TOP OF EACH FILE IN THIS DIRECTORY.
 import inquirer from "inquirer";
 const asnwer = await inquirer.prompt([
@@ -27,3 +27,4 @@ else if (asnwer.operator === "Division") {
 else {
     console.log("Please select valid operator");
 }
+console.log("THe End");
